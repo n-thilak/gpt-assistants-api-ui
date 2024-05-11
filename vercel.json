@@ -14,7 +14,11 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/",
+      "dest": "run.sh"
+    },
+    {
+      "src": "/.*",
       "dest": "run.sh"
     }
   ]
